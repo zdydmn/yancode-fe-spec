@@ -1,0 +1,22 @@
+{
+  "name": "yancode-fe-spec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "clean": "lerna clean && rm -rf pnpm-lock.yaml node_modules",
+    "init": "pnpm install",
+    "prepare": "husky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7",
+    "lerna": "^8.1.9"
+  }
+}

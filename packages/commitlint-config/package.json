@@ -1,0 +1,24 @@
+{
+  "name": "commitlint-config",
+  "version": "0.0.0",
+  "description": "commitlint 通用配置",
+  "keywords": [
+    "commitlint",
+    "yancode",
+    "fe-spec"
+  ],
+  "author": "zdydmn <fengjiaqi0426@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/commitlint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/commitlint-config.test.js"
+  }
+}
