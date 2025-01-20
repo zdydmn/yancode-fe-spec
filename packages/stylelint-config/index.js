@@ -38,9 +38,9 @@ module.exports = {
         "length-zero-no-unit": [true, { "ignore": ["custom-properties"] }],
         "value-list-comma-space-after": "always-single-line",
 
-        "scss/double-slash-comment-whitespace-inside": "always"
+        "scss/double-slash-comment-whitespace-inside": "always",
+        "number-leading-zero": "never"
     },
     ignoreFiles: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
     plugins: ['stylelint-scss'],
-    defaultSeverity: 'warning',
 }

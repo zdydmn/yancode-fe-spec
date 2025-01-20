@@ -23,13 +23,15 @@
     "url": "git+https://github.com/zdydmn/yancode-fe-spec.git"
   },
   "scripts": {
-    "test": "node ./__tests__/stylelint-config.test.js"
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/zdydmn/yancode-fe-spec/issues"
   },
   "devDependencies": {
+    "jest": "^29.5.0",
     "stylelint": "15.11.0",
+    "stylelint-scss": "^4.1.0",
     "stylelint-config-standard": "35.0.0",
     "stylelint-config-standard-scss": "12.0.0"
   }
