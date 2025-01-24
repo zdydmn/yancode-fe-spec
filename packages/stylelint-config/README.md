@@ -11,6 +11,7 @@ const stylelintConfig = require('stylelint-config');
 ```
 
 ## 规则配置
+
 ```json
 {
   "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
@@ -59,7 +60,10 @@ const stylelintConfig = require('stylelint-config');
     "block-no-empty": null,
 
     // 禁止声明块中重复的属性，但允许连续重复且值不同的属性
-    "declaration-block-no-duplicate-properties": [true, { "ignore": ["consecutive-duplicates-with-different-values"] }],
+    "declaration-block-no-duplicate-properties": [
+      true,
+      { "ignore": ["consecutive-duplicates-with-different-values"] }
+    ],
 
     // 允许特异性递减的选择器
     "no-descending-specificity": null,
